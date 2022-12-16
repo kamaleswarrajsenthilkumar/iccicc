@@ -1,44 +1,12 @@
-# Docker Getting Started Tutorial
-
-This tutorial was written with the intent of helping folks get up and running
-with containers and is designed to work with Docker Desktop. While not going too much 
-into depth, it covers the following topics:
-
-- Running your first container
-- Building containers
-- Learning what containers are
-- Running and removing containers
-- Using volumes to persist data
-- Using bind mounts to support development
-- Using container networking to support multi-container applications
-- Using Docker Compose to simplify the definition and sharing of applications
-- Using image layer caching to speed up builds and reduce push/pull size
-- Using multi-stage builds to separate build-time and runtime dependencies
-
-## Getting Started
-
-If you wish to run the tutorial, you can use the following command after installing Docker Desktop:
-
-```bash
-docker run -d -p 80:80 docker/getting-started
-```
-
-Once it has started, you can open your browser to [http://localhost](http://localhost).
-
-## Development
-
-This project has a `docker-compose.yml` file, which will start the mkdocs application on your
-local machine and help you see changes instantly.
-
-```bash
-docker compose up
-```
-
-## Contributing
-
-If you find typos or other issues with the tutorial, feel free to create a PR and suggest fixes!
-
-If you have ideas on how to make the tutorial better or want to suggest adding new content, please open an 
-issue first before working on your idea. While we love input, we want to keep the tutorial scoped to new-comers.
-As such, we may reject ideas for more advanced requests and don't want you to lose any work you might
-have done. So, ask first and we'll gladly hear your thoughts!
+# CLOUD COMPUTING BUSINESS REPORT
+The following recommendations for switching to a cloud-based architecture were prepared after reviewing Shri Raju Industries' current IT configuration. We think that the best strategy for Shri Raju Industries would be a hybrid cloud model that combines on-premises and public cloud services.
+##Companies BackgrounD
+A little company called Shri Raju Industries sells the newest gadgets and technology. Currently, the business employs 315 people and runs on 14 on-premises servers
+##Companies IT Setup
+The servers are utilized for email, customer administration, and file storage and are overseen by an internal IT team.
+##Suggestion
+1. Contrast of cloud vs non-cloud solutions for each aspect of the infrastructure:
+A cloud-based service for file storage, like Apple iCloud ,Microsoft OneDrive and Google Drive, would provide greater accessibility and flexibility. based on your selection it auto backup during regular interval
+In the world any device with an internet connection can access email with the help of a cloud-based email service like Google, which also offers other capabilities like calendar and remainder for your task.
+2. Recommendation: Based on the aforementioned study, we advise Shri Raju Industries to adopt a hybrid cloud approach, where some apps and data are stored on-premises and others are kept by a cloud service. With this strategy, the organization would still be able to keep control over sensitive data and systems while still receiving the advantages of the cloud, such as improved accessibility.
+3. Justification: The best strategy for Shri Raju Industries is a hybrid cloud architecture since it enables the business to benefit from the cloud without giving up control over its data and apps. This strategy would offer better access to data and applications from any place, as well as more flexibility and scalability. A hybrid cloud architecture would also enable the business to migrate to the cloud gradually and at its own speed, lowering the risk and disruption connected with a full switch to the cloud. Overall cloud computing is best way to adapt by everyone because it reduces the time, money and it easily accessible and wherever internet is there we can use it from anywhere in world with internet connection.
